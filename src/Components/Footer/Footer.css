@@ -1,0 +1,52 @@
+.Footer{
+    background-color: #012b72;
+}
+a,li{
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    line-height: 2rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+.MenuList h4{
+    color: white;
+    font-size: 20px;
+}
+
+.Footer-menuList, .Footer-other-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    /* gap: 3rem; */
+    /* padding: 3rem; */
+
+}
+.container{
+    width: 50vw;
+    /* padding: 2rem 0rem 0rem 2rem; */
+    color: white;
+}
+.Footer-bottom{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem;
+}
+.Footer-bottom ul{
+    display: flex;
+    gap: 1.5rem;
+}
+.gPlay-appStore{
+    display: flex;
+}
+.gPlay-appStore img{
+    width: 150px;
+    object-fit: contain;
+}
+hr{
+    width: 85vw;
+}

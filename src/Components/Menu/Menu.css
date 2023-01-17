@@ -1,0 +1,30 @@
+.Menu{
+    background-color: #012b72;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 5rem;
+}
+.Menu-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .4s linear;
+    cursor: pointer;
+}
+.Menu-list:hover{
+    transform: scale(1.2)
+}
+.Menu-list img{
+    width: 2rem;
+}
+.Menu-list p{
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
