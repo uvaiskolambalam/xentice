@@ -1,11 +1,12 @@
 .Bottom-nav{
-    padding: 2rem;
+    padding: 2rem 0rem 2rem 0rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 4rem;
+    max-width: 100%;
     overflow: scroll;
-    /* max-width: 100vw; */
+    width: 100%;
 }
 .Bottom-nav::-webkit-scrollbar {
     display: none;
@@ -37,4 +38,10 @@
     text-decoration: none;
     font-size: 11px;
     color: black;
+}
+@media screen and (max-width:390px){
+    .Bottom-nav{
+        margin-top: 139px;
+        gap:2rem;
+    }
 }

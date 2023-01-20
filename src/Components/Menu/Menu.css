@@ -1,12 +1,22 @@
 .Menu{
     background-color: #012b72;
-    width: 100%;
+    width: 100vw;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 3rem;
     padding-top: 5rem;
+    overflow: scroll;
+}
+@media screen and (max-width:866px){
+    .Menu{
+        display: flex;
+        width: 100%;
+        max-width: 866px;
+        align-items: center;
+        justify-content: flex-start;
+    }
 }
 .Menu-list{
     display: flex;
